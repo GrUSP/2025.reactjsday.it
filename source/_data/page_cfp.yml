@@ -1,0 +1,30 @@
+intro:
+  main_title: "Call for papers"
+  date_intro: "The call for papers is open until "
+  # NB la data è definita in `defaults`
+  content_1: "Propose a talk! Take the chance to share your experience, test yourself on topics you know well and learn something new while preparing your presentation.
+  You will also make yourself known in the community."
+  content_2: "<strong>What we offer you if your talk is selected:</strong>
+  <ul>
+    <li>• conference ticket;</li>
+    <li>• a single room for 1 night (2 nights for people coming from outside the European continent);</li>
+    <li>• speakers' dinner; </li>
+    <li>• a refund of up to €250 for travel costs within Europe (up to €500 outside the European continent). <br />Refunds are paid right after the conference. We will send out a form to collect the travel expenses, and it takes 10-15 days for the refunds to be processed.
+      Please let us know if you have any challenges about it and we will find a solution
+    </li>
+  </ul>"
+more_info:
+  title: "Diversity and Inclusion"
+  description_1: "GrUSP is committed to creating a conference that is as inclusive as possible. We welcome submissions from all over the world, regardless of ethnicity, gender, age.
+We are also committed to ensuring the conference is a place where ideas are exchanged, old friends get together, new friends meet, and harassment is not tolerated. We expect all attendees and speakers to follow our <a href='https://2023.reactjsday.it/welcome/coc.html'>code of conduct</a>.<br>
+All of our conferences have a <a href='https://2023.reactjsday.it/welcome/scholarships.html'>Scholarships Program</a> to encourage students, people from under-represented groups, and those who can't otherwise afford tickets to experience the event."
+  description_2: ""
+contact:
+  email_intro: "If you are a first time speaker and need help or suggestions, or for any information that you may need, feel free to contact us writing to "
+  help_intro: "If you need suggestions on how to write the abstract, see "
+  help_url: "http://helpmeabstract.com/"
+cfp_register_url: "https://docs.google.com/forms/d/e/1FAIpQLScDDm8b_i9WQohus2uw6u_zl5LPb92FSp-FF-MFnwVwa3JJnA/viewform"
+# address_aria_label: "hotel address"
+# email_aria_label: "hotel email"
+# phone_aria_label: "hotel phone"
+# website_aria_label: "hotel phone"

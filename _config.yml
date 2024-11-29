@@ -11,9 +11,9 @@ theme: "grusp_conf"
 # Site / OG
 type: website
 slug: reactjsday
-edition: 2023
-title: "reactjsday 2023"
-description: "reactjsday 2023 Italian React Conference"
+edition: 2025
+title: "reactjsday 2025"
+description: "reactjsday 2025 Italian React Conference"
 #   separate keywords by comma, no spaces
 keywords: conference,software conference,JavaScript,React,frontend,tech conference
 author: GrUSP
@@ -36,7 +36,7 @@ breadcrumb:
 # URL
 ## If your site is put in a subdirectory, set url as 'yoursite.com/child' and root as '/child/'
 # TODO actual URL (per site)
-url: https://2023.reactjsday.it/
+url: https://2025.reactjsday.it/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

@@ -22,12 +22,12 @@ conference:
   # contact email
   contact_email: "reactjsday@grusp.org"
   # these are for the hero section
-  title_pre: "Welcome to"
-  title: "reactjsday 2025"
+  title_pre: "reactjsday 2025"
+  title: "- the Italian React Conference"
   city: "Verona"
-  date: "2023-10-27T09:00+02:00"
+  date: "2025-10-16T09:00+02:00"
   # Use the next field to override the date in the hero
-  hero_date_text: "Confirmed: Autumn 2025!"
+  hero_date_text: "Thursday, 16th October 2025"
   countdown_visible: false
   countdown_days: "days"
   countdown_hours: "hours"
@@ -46,23 +46,23 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
-  cfp_open_title: "Call For Papers closing soon!"
-  cfp_deadline: 2023-08-15T23:59+02:00
+  cfp_open_title: "Call For Papers is open!"
+  cfp_deadline: 2025-05-18T23:59+02:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "Prepare for the <b>11th edition of reactjsday</b>, Italy’s premier React conference, proudly brought to you by <a href='https://www.grusp.org/'>GrUSP</a>—known for top-tier events like <a href='https://www.jsday.it/'>jsday</a> and <a href='https://www.phpday.it/'>phpday</a>. 
+  geninfo_description: "Prepare for the <b>11th edition of reactjsday</b>, Italy’s premier React conference, proudly brought to you by <a href='https://www.grusp.org/'>GrUSP</a>—known for top-tier events like <a href='https://www.jsday.it/'>jsday</a> and <a href='https://www.phpday.it/'>phpday</a>.
   This landmark event marks over a decade of innovation, collaboration, and knowledge-sharing in the React ecosystem.<br>&nbsp;<br>
   Whether you’re a newcomer eager to master the basics or a seasoned developer in search of advanced insights, reactjsday has something for everyone.
   Dive into cutting-edge talks on the latest React advancements, best practices, and real-world applications—all delivered in English by experts from around the world.<br>&nbsp;<br>
-  Join us in <b>Autumn 2025</b>, in the beautiful city of Verona or online, for an inspiring blend of learning, networking, and fun.
+  Join us on <b>Thursday 16th October 2025</b>, in the beautiful city of Verona or online, for an inspiring blend of learning, networking, and fun.
   Don’t miss your chance to connect with the vibrant React community and help shape the future of React.<br>&nbsp;<br>
-  Stay tuned for the official dates—<b>let’s celebrate over ten years of React excellence together!</b>"
+  <b>Let’s celebrate over ten years of React excellence together!</b>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -98,10 +98,23 @@ conference:
   mcs_title: "MC"
   speaker_count_text: "Here is the amazing lineup"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
-  topics_visible: false
+  topics_visible: true
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
-  topics: ""
+  topics:
+    - "React Server Components"
+    - "AI"
+    - "SSR"
+    - "Firebase"
+    - "Design System"
+    - "React Native"
+    - "Next.js"
+    - "System Design"
+    - "Testing"
+    - "Accessibility"
+    - "Best practices"
+    - "React compiler"
+    - "State management"
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
@@ -124,7 +137,7 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmdZSIm1lJOafQdNili3MMV"
+  youtube_playlist_id: "PLWK9j6ps_unmdZSIm1lJOafQdNili3MMV&si=DgkDFr7r16CnUUOs"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "6048109"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -137,7 +150,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
+  sponsors_visible: true
   sponsor_title_home: "Thanks for supporting reactjsday"
   # this is for the Community partners section in home page
   community_partners: true

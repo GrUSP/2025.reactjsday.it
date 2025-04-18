@@ -9,11 +9,11 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "Umana"
+    logo_filename: "umana.png"
+    site_url: "https://www.umana.it/"
 gold:
   sponsor1:
     name: "workwave"
@@ -45,4 +45,4 @@ silver:
 
 # Partner configuration
 partner_tags:
-  - php
+  - reactjsday

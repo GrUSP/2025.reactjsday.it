@@ -21,8 +21,8 @@ All of our conferences have a <a href='https://2025.reactjsday.it/welcome/schola
   description_2: ""
 contact:
   email_intro: "If you are a first time speaker and need help or suggestions, or for any information that you may need, feel free to contact us writing to "
-  help_intro: "If you need suggestions on how to write the abstract, see "
-  help_url: "http://helpmeabstract.com/"
+  help_intro: ""
+  help_url: ""
 cfp_register_url: "https://sessionize.com/reactjsday-2025/"
 # address_aria_label: "hotel address"
 # email_aria_label: "hotel email"

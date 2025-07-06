@@ -8,7 +8,7 @@ edoardo_dusi: &edoardo_dusi
   speaker_in_speaker_lists: true
   speaker_name: Edoardo Dusi
   speaker_pic_filename: edoardo_dusi.png
-  speaker_role: "Senior Developer Relations Engineer"
+  speaker_role: "Senior Developer Relations Engineer "
   speaker_bio: "Edoardo is a Developer Relations Engineer. He has a strong software developer and team leader background, working on various projects and platforms. He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. He enjoys connecting with the developer community and promoting the benefits of open source software."
   speaker_github_url: "https://github.com/edodusi"
   speaker_twitter_url: ""
@@ -34,7 +34,7 @@ daniel_espino_garcia: &daniel_espino_garcia
   speaker_in_speaker_lists: true
   speaker_name: Daniel Espino Garcia
   speaker_pic_filename: daniel_espino_garcia.jpg
-  speaker_role: "Software Design Engineer at Mattermost"
+  speaker_role: "Software Design Engineer @ Mattermost"
   speaker_bio: "Fullstack Software Design Engineer at Mattermost. He has helped with the re-architecturing of the new version of the mobile app, written in React Native. Confident with React, React Native and Go, and always happy to learn new things. Fun fact: studying psychology for fun."
   speaker_github_url: ""
   speaker_twitter_url: ""
@@ -111,7 +111,7 @@ courtney_yatteau: &courtney_yatteau
 jovonne_cameron: &jovonne_cameron
   speaker_in_speaker_lists: true
   speaker_name: Jovonne Cameron
-  speaker_pic_filename: jovonne_cameron.jpg
+  speaker_pic_filename: jovonne_cameron.png
   speaker_role: "Software Engineer and Technical Writer"
   speaker_bio: "Jovonne Cameron is a Software Engineer, Technical Writer, and Content Creator focused on making tech accessible and empowering underrepresented communities to excel in the tech industry. As a technical writer, she loves breaking down complex tech topics into clear, digestible content that helps beginners navigate the world of technology. With a passion for bridging the gap between career development, financial literacy, and tech culture, Jovonne creates content that is both educational and aspirational. She is known for creating relatable and informative content that resonates with aspiring technologists, career changers, and young professionals. Jovonne's mission is to inspire and support her audience as they navigate their growth, discover new opportunities, and transform their careers. Through authentic storytelling and thought leadership, she aims to foster a sense of community and provide practical advice, tools, and resources that help people invest in their future success."
   speaker_github_url: "https://www.github.com/curlygirltech"
@@ -124,7 +124,7 @@ jovonne_cameron: &jovonne_cameron
 ludovico_besana: &ludovico_besana
   speaker_in_speaker_lists: true
   speaker_name: Ludovico Besana
-  speaker_pic_filename: ludovico_besana.jpg
+  speaker_pic_filename: ludovico_besana.png
   speaker_role: "Senior Test Engineer @Nearform"
   speaker_bio: "Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems. As an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer."
   speaker_github_url: "https://github.com/ludovicobesana"

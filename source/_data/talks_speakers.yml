@@ -1,45 +1,19 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: yes
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-edoardo_dusi: &edoardo_dusi
+amira_shawky: &amira_shawky
   speaker_in_speaker_lists: true
-  speaker_name: Edoardo Dusi
-  speaker_pic_filename: edoardo_dusi.png
-  speaker_role: "Senior Developer Relations Engineer "
-  speaker_bio: "Edoardo is a Developer Relations Engineer. He has a strong software developer and team leader background, working on various projects and platforms. He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. He enjoys connecting with the developer community and promoting the benefits of open source software."
-  speaker_github_url: "https://github.com/edodusi"
-  speaker_twitter_url: ""
-  speaker_instagram_url: "https://www.instagram.com/edodusi/"
-  speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
-  speaker_mastodon_url: "https://hachyderm.io/@edodusi"
-  is_mc: false
-
-dennis_spierenburg: &dennis_spierenburg
-  speaker_in_speaker_lists: true
-  speaker_name: Dennis Spierenburg
-  speaker_pic_filename: dennis_spierenburg.jpg
-  speaker_role: "Divotion, Frontend developer"
-  speaker_bio: "Dennis is a specialized frontend developer with experience in JavaScript, Vue and React. Dennis loves to discover new technologies and tries to share his knowledge with as many people as possible."
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-  speaker_instagram_url: "https://www.instagram.com/dipsausdennis/"
-  speaker_linkedin_url: "https://www.linkedin.com/in/dennis-spierenburg-14910a13b/"
-  speaker_mastodon_url: ""
-  is_mc: false
-
-daniel_espino_garcia: &daniel_espino_garcia
-  speaker_in_speaker_lists: true
-  speaker_name: Daniel Espino Garcia
-  speaker_pic_filename: daniel_espino_garcia.jpg
-  speaker_role: "Software Design Engineer @ Mattermost"
-  speaker_bio: "Fullstack Software Design Engineer at Mattermost. He has helped with the re-architecturing of the new version of the mobile app, written in React Native. Confident with React, React Native and Go, and always happy to learn new things. Fun fact: studying psychology for fun."
+  speaker_name: Amira Shawky
+  speaker_pic_filename: amira_shawky.png
+  speaker_role: "Frontend Engineer @ Aydi"
+  speaker_bio: "Senior Frontend Developer with 4+ years of expertise in React, Next.js, and TypeScript. Led a team, optimized performance, and delivered projects for web applications across various industries, including agriculture, tourism, pharmacy, trading, e-commerce, and GIS."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
-  speaker_linkedin_url: "https://es.linkedin.com/in/daniel-espino-garc%C3%ADa-0abb2257/en"
+  speaker_linkedin_url: "https://www.linkedin.com/in/amira-shawky-219187164/"
   speaker_mastodon_url: ""
   is_mc: false
 
@@ -47,51 +21,12 @@ cecilia_geraldo: &cecilia_geraldo
   speaker_in_speaker_lists: true
   speaker_name: Cecilia Geraldo
   speaker_pic_filename: cecilia_geraldo.png
-  speaker_role: "Technical Lead & Developer Consultant at Thoughtworks | Women TechMakers Ambassador"
+  speaker_role: "Technical Lead & Developer Consultant @ Thoughtworks"
   speaker_bio: "Women TechMakers Ambassador from Chile. Building community and promoting visibiliby and women empowerment in tech industry. Cecy graduated form Laboratoria as Front End Developer, now she's a Software Developer Consultant and also Technical Lead at Thoughtworks. She strongly believes in the power of community and spreading knowledge, passionate about the code and connect with people, share her experience as she converted her path career and got into technology so more women can see this opportunities. She is an active promoter of learning continuosly and also share the knowledge and wisdom acquired, her favorites phrases are:  'Knowledge is power, but only when it is shared. The more knowledge we share, the smarter we all become.' and she advocates to accomplish them."
   speaker_github_url: "https://github.com/ceciliageraldo"
   speaker_twitter_url: ""
   speaker_instagram_url: "https://instagram.com/cecygeraldo.codes"
   speaker_linkedin_url: "https://linkedin.com/in/ceciliageraldo"
-  speaker_mastodon_url: ""
-  is_mc: false
-
-francesco_napoletano: &francesco_napoletano
-  speaker_in_speaker_lists: true
-  speaker_name: Francesco Napoletano
-  speaker_pic_filename: francesco_napoletano.jpg
-  speaker_role: "Staff Software Engineer"
-  speaker_bio: "I'm Francesco, 44 years old, staff software engineer specialized in web applications living in Giussano, Italy. I have ~20 years experience in frontend and backend technologies. I've worked in international teams for many different companies (eBay, Pirelli, Subito, cybersecurity scaleup)"
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-  speaker_instagram_url: "https://www.instagram.com/napo.dev/"
-  speaker_linkedin_url: "https://www.linkedin.com/in/francesconapoletano/"
-  speaker_mastodon_url: ""
-  is_mc: false
-
-luca_del_puppo: &luca_del_puppo
-  speaker_in_speaker_lists: true
-  speaker_name: Luca Del Puppo
-  speaker_pic_filename: luca_del_puppo.jpg
-  speaker_role: "Nearform_, Senior Software Engineer"
-  speaker_bio: "I'm a Senior Software Engineer, Microsoft MVP, Google Developer Expert Codemotion Ambassador and GitKraken Ambassador. I love JavaScript and TypeScript. In my free time, I love studying new technologies, improving myself, creating YouTube content or writing technical articles. I can't stay without trail running and love to do it in my love Dolomiti."
-  speaker_github_url: "https://github.com/puppo"
-  speaker_twitter_url: ""
-  speaker_instagram_url: ""
-  speaker_linkedin_url: "https://www.linkedin.com/in/lucadelpuppo/"
-  speaker_mastodon_url: ""
-  is_mc: false
-
-amira_shawky: &amira_shawky
-  speaker_in_speaker_lists: true
-  speaker_name: Amira Shawky
-  speaker_pic_filename: amira_shawky.png
-  speaker_role: "Aydi, Frontend Engineer"
-  speaker_bio: "Senior Frontend Developer with 4+ years of expertise in React, Next.js, and TypeScript. Led a team, optimized performance, and delivered projects for web applications across various industries, including agriculture, tourism, pharmacy, trading, e-commerce, and GIS."
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-  speaker_instagram_url: ""
-  speaker_linkedin_url: "https://www.linkedin.com/in/amira-shawky-219187164/"
   speaker_mastodon_url: ""
   is_mc: false
 
@@ -108,6 +43,58 @@ courtney_yatteau: &courtney_yatteau
   speaker_mastodon_url: ""
   is_mc: false
 
+daniel_espino_garcia: &daniel_espino_garcia
+  speaker_in_speaker_lists: true
+  speaker_name: Daniel Espino Garcia
+  speaker_pic_filename: daniel_espino_garcia.jpg
+  speaker_role: "Software Design Engineer @ Mattermost"
+  speaker_bio: "Fullstack Software Design Engineer at Mattermost. He has helped with the re-architecturing of the new version of the mobile app, written in React Native. Confident with React, React Native and Go, and always happy to learn new things. Fun fact: studying psychology for fun."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://es.linkedin.com/in/daniel-espino-garc%C3%ADa-0abb2257/en"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+dennis_spierenburg: &dennis_spierenburg
+  speaker_in_speaker_lists: true
+  speaker_name: Dennis Spierenburg
+  speaker_pic_filename: dennis_spierenburg.jpg
+  speaker_role: "Frontend developer @ Divotion"
+  speaker_bio: "Dennis is a specialized frontend developer with experience in JavaScript, Vue and React. Dennis loves to discover new technologies and tries to share his knowledge with as many people as possible."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: "https://www.instagram.com/dipsausdennis/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/dennis-spierenburg-14910a13b/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+edoardo_dusi: &edoardo_dusi
+  speaker_in_speaker_lists: true
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: edoardo_dusi.png
+  speaker_role: "Senior Developer Relations Engineer @ Storyblok"
+  speaker_bio: "Edoardo is a Developer Relations Engineer. He has a strong software developer and team leader background, working on various projects and platforms. He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. He enjoys connecting with the developer community and promoting the benefits of open source software."
+  speaker_github_url: "https://github.com/edodusi"
+  speaker_twitter_url: ""
+  speaker_instagram_url: "https://www.instagram.com/edodusi/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
+  speaker_mastodon_url: "https://hachyderm.io/@edodusi"
+  is_mc: false
+
+francesco_napoletano: &francesco_napoletano
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Napoletano
+  speaker_pic_filename: francesco_napoletano.jpg
+  speaker_role: "Staff Software Engineer @ Sysdig"
+  speaker_bio: "I'm Francesco, 44 years old, staff software engineer specialized in web applications living in Giussano, Italy. I have ~20 years experience in frontend and backend technologies. I've worked in international teams for many different companies (eBay, Pirelli, Subito, cybersecurity scaleup)"
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: "https://www.instagram.com/napo.dev/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/francesconapoletano/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 jovonne_cameron: &jovonne_cameron
   speaker_in_speaker_lists: true
   speaker_name: Jovonne Cameron
@@ -121,11 +108,24 @@ jovonne_cameron: &jovonne_cameron
   speaker_mastodon_url: ""
   is_mc: false
 
+luca_del_puppo: &luca_del_puppo
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Del Puppo
+  speaker_pic_filename: luca_del_puppo.jpg
+  speaker_role: "Senior Software Engineer @ Nearform"
+  speaker_bio: "I'm a Senior Software Engineer, Microsoft MVP, Google Developer Expert Codemotion Ambassador and GitKraken Ambassador. I love JavaScript and TypeScript. In my free time, I love studying new technologies, improving myself, creating YouTube content or writing technical articles. I can't stay without trail running and love to do it in my love Dolomiti."
+  speaker_github_url: "https://github.com/puppo"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/lucadelpuppo/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 ludovico_besana: &ludovico_besana
   speaker_in_speaker_lists: true
   speaker_name: Ludovico Besana
   speaker_pic_filename: ludovico_besana.png
-  speaker_role: "Senior Test Engineer @Nearform"
+  speaker_role: "Senior Test Engineer @ Nearform"
   speaker_bio: "Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems. As an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer."
   speaker_github_url: "https://github.com/ludovicobesana"
   speaker_twitter_url: ""
@@ -135,15 +135,15 @@ ludovico_besana: &ludovico_besana
   is_mc: false
 
 speakers:
-  edoardo_dusi: *edoardo_dusi
-  dennis_spierenburg: *dennis_spierenburg
-  daniel_espino_garcia: *daniel_espino_garcia
-  cecilia_geraldo: *cecilia_geraldo
-  francesco_napoletano: *francesco_napoletano
-  luca_del_puppo: *luca_del_puppo
   amira_shawky: *amira_shawky
+  cecilia_geraldo: *cecilia_geraldo
   courtney_yatteau: *courtney_yatteau
+  daniel_espino_garcia: *daniel_espino_garcia
+  # dennis_spierenburg: *dennis_spierenburg speaker didn't confirmed yet
+  edoardo_dusi: *edoardo_dusi
+  francesco_napoletano: *francesco_napoletano
   jovonne_cameron: *jovonne_cameron
+  luca_del_puppo: *luca_del_puppo
   ludovico_besana: *ludovico_besana
 
 tracks:

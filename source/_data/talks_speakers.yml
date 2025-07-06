@@ -205,10 +205,10 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "You build React apps: do you even know how?"
-        talk_description: >
-          React developers rely every day on tools like Vite, Webpack, or Rollup, but what actually happens when you npm run build? What's inside those "bundlers" and how do they turn your JSX and node_modules soup into fast, production-ready apps?
+        talk_description: |
+          React developers rely every day on tools like Vite, Webpack, or Rollup, but what actually happens when you npm run build? What's inside those "bundlers" and how do they turn your JSX and node_modules soup into fast, production-ready apps?<br><br>
 
-          In this talk, we'll reverse-engineer the React build pipeline from the ground up. We'll explore how bundlers parse your code using ASTs, resolve dependencies, apply tree-shaking and code-splitting, and implement dev-time features like Hot Module Replacement. We'll also see what makes Vite fundamentally different, and why it matters for React performance and DX.
+          In this talk, we'll reverse-engineer the React build pipeline from the ground up. We'll explore how bundlers parse your code using ASTs, resolve dependencies, apply tree-shaking and code-splitting, and implement dev-time features like Hot Module Replacement. We'll also see what makes Vite fundamentally different, and why it matters for React performance and DX.<br><br>
 
           Whether you're debugging a slow build or just curious what's behind the curtain, this is the deep dive you didn't know you needed.
         talk_video_url:
@@ -221,7 +221,17 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "Less Is More: Designing Lean React Component Interfaces for Maximum Impact"
-        talk_description: "How can minimalism in React component design improve your codebase? This talk explores the value of keeping React components lean, focusing on reducing their interfaces to the Minimum Viable Interface (MVI). Learn how this practice makes components easier to test, maintain, and replace, while fostering better collaboration and consistency across teams. If you're looking for scalable strategies to maintain agility in your React applications, this talk is for you."
+        talk_description: |
+          How can minimalism in React component design improve your codebase?<br><br>
+          
+          This talk explores the value of keeping React components lean, focusing on reducing their interfaces to the Minimum Viable Interface (MVI). Learn how this practice makes components easier to:<br>
+          <ul>
+          <li>- Test</li>
+          <li>- Maintain</li>
+          <li>- Replace</li>
+          </ul>
+          
+          While fostering better collaboration and consistency across teams. If you're looking for scalable strategies to maintain agility in your React applications, this talk is for you.
         talk_video_url:
         speakers:
           daniel_espino_garcia: *daniel_espino_garcia
@@ -232,11 +242,19 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "The Great Modularization: How We Scaled a 15-Team React Native App Without Losing Our Minds"
-        talk_description: >
-          What happens when 15+ teams collaborate on the same modular React Native app?
-          In this talk, I'll share the architectural evolution of a platform designed for scale from day one — and the challenges we faced as the number of modules, contributors, and cross-cutting concerns grew.
+        talk_description: |
+          What happens when 15+ teams collaborate on the same modular React Native app?<br><br>
+          
+          In this talk, I'll share the architectural evolution of a platform designed for scale from day one — and the challenges we faced as the number of modules, contributors, and cross-cutting concerns grew.<br><br>
 
-          We'll dive into our modular structure, how we apply microfrontend principles in mobile, and how we introduced server-driven UI to empower product teams. We'll also reflect on what it means to lead a platform team in this context — balancing autonomy and consistency while enabling fast, accessible, and scalable development across the organization.
+          We'll dive into:<br>
+          <ul>
+          <li>- Our modular structure</li>
+          <li>- How we apply microfrontend principles in mobile</li>
+          <li>- How we introduced server-driven UI to empower product teams</li>
+          </ul>
+          
+          We'll also reflect on what it means to lead a platform team in this context — balancing autonomy and consistency while enabling fast, accessible, and scalable development across the organization.
         talk_video_url:
         speakers:
           cecilia_geraldo: *cecilia_geraldo
@@ -247,10 +265,19 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "Is this the real life, or are these just utility types in TypeScript and React 19?"
-        talk_description: >
-          Ladies and gentlemen, TypeScript's utility types are the Freddie Mercury of static typing: bold, versatile, and absolutely iconic. In this session, we'll take you on a Greatest Hits tour of every utility type, from Partial to OmitThisParameter, going through Capitalize and many more.
+        talk_description: |
+          Ladies and gentlemen, TypeScript's utility types are the Freddie Mercury of static typing: bold, versatile, and absolutely iconic.<br><br>
+          
+          In this session, we'll take you on a Greatest Hits tour of every utility type, from Partial to OmitThisParameter, going through Capitalize and many more.<br><br>
 
-          We'll crank the volume up to React 19: jamming on Server Components, Suspense, and the brand-new Actions API, pairing each feature with its perfect utility-type riff. 
+          We'll crank the volume up to React 19: jamming on:<br>
+          <ul>
+          <li>- Server Components</li>
+          <li>- Suspense</li>
+          <li>- The brand-new Actions API</li>
+          </ul>
+          
+          Pairing each feature with its perfect utility-type riff.<br><br>
 
           At the end of the talk we'll be ready to rock production code harder than Queen at Wembley '86!
         talk_video_url:
@@ -263,14 +290,24 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "React Compiler, how can you help me?"
-        talk_description: >
-          A useMemo here, a useCallback there, sprinkle in a memo. Is this a codebase or a jungle of optimisation hacks? But wait… why are *we* doing the framework's job?
+        talk_description: |
+          A useMemo here, a useCallback there, sprinkle in a memo. Is this a codebase or a jungle of optimisation hacks? But wait… why are *we* doing the framework's job?<br><br>
 
-          Lucky for us, React Compiler is here, and It promises to fine-tune our code and let us focus on shipping features!
+          Lucky for us, React Compiler is here, and It promises to:<br>
+          <ul>
+          <li>- Fine-tune our code automatically</li>
+          <li>- Let us focus on shipping features</li>
+          <li>- Handle optimisation for us</li>
+          </ul>
 
-          Finally, you can focus your time on resolving business issues rather than framework mistakes!
+          Finally, you can focus your time on resolving business issues rather than framework mistakes!<br><br>
 
-          In this talk, we'll explore how the React Compiler works, what it can (and can't) do for our project, and how it's changing the way we think about performance in React.
+          In this talk, we'll explore:<br>
+          <ul>
+          <li>- How the React Compiler works</li>
+          <li>- What it can (and can't) do for our project</li>
+          <li>- How it's changing the way we think about performance in React</li>
+          </ul>
 
           Say goodbye to optimisation and hello to shipping features… faster. Unlock the compiler's magic and let React do what It was always supposed to do—*just work*.
         talk_video_url:
@@ -283,7 +320,17 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "Decoupled, Not Disconnected: State and Sync in Micro-Frontends"
-        talk_description: "As teams and apps grow, micro-frontends offer a way to scale — but managing state and communication across modules gets tricky. In this talk, I'll explore how to structure micro-frontends in React and Next.js, how to manage different types of state, and how to keep everything in sync across backends, auth, and storage. Whether you're considering micro-frontends or already working with them, this talk will help you avoid the pain points and build modular systems that still feel cohesive."
+        talk_description: |
+          As teams and apps grow, micro-frontends offer a way to scale — but managing state and communication across modules gets tricky.<br><br>
+          
+          In this talk, I'll explore:<br>
+          <ul>
+          <li>- How to structure micro-frontends in React and Next.js</li>
+          <li>- How to manage different types of state</li>
+          <li>- How to keep everything in sync across backends, auth, and storage</li>
+          </ul>
+          
+          Whether you're considering micro-frontends or already working with them, this talk will help you avoid the pain points and build modular systems that still feel cohesive.
         talk_video_url:
         speakers:
           amira_shawky: *amira_shawky
@@ -294,8 +341,22 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "React and the Art of Gamification"
-        talk_description: >
-          Learn how React 19's Server Components and the new React Compiler make classic gamification patterns—XP bars, streaks, achievements—blazing fast. We'll build a live quest app that streams UI from the server, auto-memoizes score updates, and even generates on-the-fly challenges with Gemini AI. You'll leave with a starter repo and a checklist for turning any React project into an experience users hate to quit.
+        talk_description: |
+          Learn how React 19's Server Components and the new React Compiler make classic gamification patterns blazing fast:<br>
+          <ul>
+          <li>- XP bars</li>
+          <li>- Streaks</li>
+          <li>- Achievements</li>
+          </ul>
+          
+          We'll build a live quest app that:<br>
+          <ul>
+          <li>- Streams UI from the server</li>
+          <li>- Auto-memoizes score updates</li>
+          <li>- Generates on-the-fly challenges with Gemini AI</li>
+          </ul>
+          
+          You'll leave with a starter repo and a checklist for turning any React project into an experience users hate to quit.
         talk_video_url:
         speakers:
           courtney_yatteau: *courtney_yatteau
@@ -306,13 +367,21 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "From Chaos to Confidence: Avoiding the Biggest Mistakes in React State Management"
-        talk_description: >
-          In this talk, we'll walk through real examples of where state decisions went sideways from apps that became impossible to debug, to companies that had to rewrite their frontends because of poor architectural choices. Then, I'll walk you through a beginner-friendly decision framework you can use to avoid those same mistakes.
+        talk_description: |
+          In this talk, we'll walk through real examples of where state decisions went sideways:<br>
+          <ul>
+          <li>- Apps that became impossible to debug</li>
+          <li>- Companies that had to rewrite their frontends because of poor architectural choices</li>
+          </ul>
           
-          You'll learn:
-          - How to recognize when a state tool is working against you
-          - The three most common mistakes teams make with local, global, and server state
-          - How to future-proof your app by asking better questions at the start
+          Then, I'll walk you through a beginner-friendly decision framework you can use to avoid those same mistakes.<br><br>
+          
+          You'll learn:<br>
+          <ul>
+          <li>- How to recognize when a state tool is working against you</li>
+          <li>- The three most common mistakes teams make with local, global, and server state</li>
+          <li>- How to future-proof your app by asking better questions at the start</li>
+          </ul>
           
           This talk is honest, practical, and full of lessons I wish I had when I started building in React. It's for developers who are tired of guessing and want a better way to think about state, scale, and sanity.
         talk_video_url:
@@ -325,7 +394,20 @@ days:
         # start_datetime: 2025-05-XX
         # end_datetime: 2025-05-XX
         talk_title: "From Unit to E2E: Crafting a Bulletproof testing pipeline for React Apps"
-        talk_description: "Tired of deploying React features that break in production? In this talk, we'll build a multi-layered testing pipeline from unit tests to E2E and performance tests tailored for React and Next.js projects. You'll learn how to integrate tools like Jest, Playwright, Storybook, and k6 into your daily dev flow and CI/CD. Expect real-world case studies, code demos, and actionable strategies to boost confidence in your React releases."
+        talk_description: |
+          Tired of deploying React features that break in production?<br><br>
+          
+          In this talk, we'll build a multi-layered testing pipeline from unit tests to E2E and performance tests tailored for React and Next.js projects.<br><br>
+          
+          You'll learn how to integrate tools into your daily dev flow and CI/CD:<br>
+          <ul>
+          <li>- Jest (unit testing)</li>
+          <li>- Playwright (E2E testing)</li>
+          <li>- Storybook (component testing)</li>
+          <li>- k6 (performance testing)</li>
+          </ul>
+          
+          Expect real-world case studies, code demos, and actionable strategies to boost confidence in your React releases.
         talk_video_url:
         speakers:
           ludovico_besana: *ludovico_besana

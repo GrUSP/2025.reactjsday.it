@@ -46,7 +46,7 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: ""
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers is open!"
@@ -93,28 +93,27 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: false
+  speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: "Here is the amazing lineup"
+  speaker_count_text: "Here is the amazing lineup so far:"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
+    - "React Compiler"
+    - "Build Tools & Bundlers"
+    - "TypeScript Utility Types"
     - "React Server Components"
-    - "AI"
-    - "SSR"
-    - "Firebase"
-    - "Design System"
+    - "State Management"
+    - "Micro-Frontends"
     - "React Native"
-    - "Next.js"
-    - "System Design"
-    - "Testing"
-    - "Accessibility"
-    - "Best practices"
-    - "React compiler"
-    - "State management"
+    - "Component Design Patterns"
+    - "Testing Strategies"
+    - "Gamification"
+    - "Performance Optimization"
+    - "Developer Experience"
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden

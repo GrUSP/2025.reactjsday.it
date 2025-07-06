@@ -1,0 +1,156 @@
+Session Id,Title,Description,Owner,Owner Email,Other info about the talk,Level,Which topic(s) will your talk cover?,Owner Informed,Owner Confirmed,Room,Scheduled At,Scheduled Duration,Live Link,Recording Link,Speaker Id,FirstName,LastName,Email,TagLine,Bio,GitHub,Mastodon,Your experience,Please tell us something more about you,Which pronouns do you prefer?,Preferred pronouns,Country and city you'll be traveling from,Are you a organizer or member of a community?,Name of the community,Could your company sponsor the event?,I have read and accept the Code of Conduct,LinkedIn,Instagram,Profile Picture
+862502,You build React apps: do you even know how?,"React developers rely every day on tools like Vite, Webpack, or Rollup, but what actually happens when you npm run build? What’s inside those “bundlers” and how do they turn your JSX and node_modules soup into fast, production-ready apps?
+
+In this talk, we’ll reverse-engineer the React build pipeline from the ground up. We’ll explore how bundlers parse your code using ASTs, resolve dependencies, apply tree-shaking and code-splitting, and implement dev-time features like Hot Module Replacement. We’ll also see what makes Vite fundamentally different, and why it matters for React performance and DX.
+
+Whether you're debugging a slow build or just curious what's behind the curtain, this is the deep dive you didn't know you needed.",Edoardo Dusi,edo@edoardodusi.com,"The talk is made of slides and coding. Not exactly ""live coding"" because I will just go through the code I already wrote, to show how to create a real bundler, a simple bundler heaviliy inspired by the original webpack.",Advanced,"JavaScript bundlers, builds and static analysis",12 Jun 2025 10:58 am,13 Jun 2025 07:05 am,,,,,,87e12d99-9e42-47d2-b6e5-73dafd25ef45,Edoardo,Dusi,edo@edoardodusi.com,Senior Developer Relations Engineer,"Edoardo is a Developer Relations Engineer. He has a strong software developer and team leader background, working on various projects and platforms. He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. He enjoys connecting with the developer community and promoting the benefits of open source software.",https://github.com/edodusi,https://hachyderm.io/@edodusi,I'm an experienced speaker,,he/him,,Bologna,,,Probably yes,Checked,https://www.linkedin.com/in/edoardodusi/,https://www.instagram.com/edodusi/,https://sessionize.com/image/fb40-400o400o1-38ZGAvWac536TLbYyHqF7v.png
+869659,"Atomic Design: Breaking Up is Hard to Do, Enter Compound Components!","In this talk, we shall highlight the limitations of Atomic Design in complex UI development and introduce Compound Components as a more flexible solution. We will contrast Atomic Design and Compound Components, showing their differences with practical examples as code examples and real-life live coding sessions.
+
+The talk will cover state management and how Compound Components give better ways to manage state throughout an application. We will see Figma designs and translate them into code, covering component decomposition from the ground up. We will share in frontend API architecture how to drive clear and flexible structures about how components interact with each other. Further down, techniques for dealing with complexity and scalability of large projects; and collaboration strategies between designers and developers.
+
+By the end of this talk, you will know how to implement Compound Components to enable the creation of scalable, maintainable, and customizable UI elements in collaboration with designers. This session is jammed with useful information and live coding to bring your React development to the next level!",Dennis Spierenburg,dennis.spierenburg@divotion.com,"The talk will cover state management and how Compound Components give better ways to manage state throughout an application. We will see Figma designs and translate them into code, covering component decomposition from the ground up. We will share in frontend API architecture how to drive clear and flexible structures about how components interact with each other. Further down, techniques for dealing with complexity and scalability of large projects; and collaboration strategies between designers and developers.
+",Intermediate,"Frontend, React, Atomic design",1 Jul 2025 08:36 am,No,,,,,,c80f0dd0-ce81-4b03-a7e8-a89f87ce9e09,Dennis,Spierenburg,dennis.spierenburg@divotion.com,"Divotion, Frontend developer","Dennis is a specialized frontend developer with experience in JavaScript, Vue and React. Dennis loves to discover new technologies and tries to share his knowledge with as many people as possible.",,,I'm an experienced speaker,,he/him,,"The Netherlands, Utrecht",I'm not an organizer but I'm part of a community that might be interested,,,Checked,https://www.linkedin.com/in/dennis-spierenburg-14910a13b/,https://www.instagram.com/dipsausdennis/,https://sessionize.com/image/1fc4-400o400o1-poiCkvWmZ2zkfisnKJS2z4.jpg
+886916,Less Is More: Designing Lean React Component Interfaces for Maximum Impact,"How can minimalism in React component design improve your codebase? This talk explores the value of keeping React components lean, focusing on reducing their interfaces to the Minimum Viable Interface (MVI). Learn how this practice makes components easier to test, maintain, and replace, while fostering better collaboration and consistency across teams. If you're looking for scalable strategies to maintain agility in your React applications, this talk is for you.",Daniel Espino Garcia,larkox@gmail.com,"The talk dives into the philosophy and practical benefits of designing React components with the principle of Minimum Viable Interface (MVI). Attendees will gain insights into how reducing a component's public-facing API improves:
+- Testability: Smaller, well-defined interfaces make components easier to isolate and test
+- Maintainability: Simplified interfaces reduce cognitive load, making it easier for developers to reason about code
+- Exchangeability: Components with minimal dependencies become modular and easier to swap or refactor.
+
+The structure of the talk will be the following:
+- Introduction (5 min):
+  - Brief overview of the pain points in complex interfaces.
+  - Introducing the concept of the Minimum Viable Interface.
+- The Problem with Bloated Components (7 min):
+ - Real-world examples of overly complex component interfaces.
+ - The hidden cost in testing, refactoring, and collaboration.
+- The Power of MVI (10 min):
+  - Principles of designing minimal interfaces for React components.
+  - Case studies demonstrating outcomes like simpler testing and quicker refactoring.
+- Practical Implementation (13 min):
+  - Strategies for identifying and reducing unnecessary props.
+  - Tips for separating concerns and composing components effectively.
+  - Patterns to maintain lean interfaces.
+- Q&A and Wrap-Up (5 min)",Intermediate,"Code quality, code patterns",1 Jul 2025 08:36 am,1 Jul 2025 03:41 pm,,,,,,dceeef7a-b670-4ac8-9290-2d2458f2507a,Daniel,Espino Garcia,larkox@gmail.com,Software Design Engineer at Mattermost,"Fullstack Software Design Engineer at Mattermost. He has helped with the re-architecturing of the new version of the mobile app, written in React Native. Confident with React, React Native and Go, and always happy to learn new things. Fun fact: studying psychology for fun.",,,I'm an experienced speaker,https://www.wearedevelopers.com/en/videos/957/dos-and-don-ts-with-react-hooks-an-opinionated-approach,he/him,,"Madrid, Spain",,,,Checked,https://es.linkedin.com/in/daniel-espino-garc%C3%ADa-0abb2257/en,,https://sessionize.com/image/2390-400o400o1-hdxJJqq1RTZX7U6nrGL36B.jpg
+914911,The Great Modularization: How We Scaled a 15-Team React Native App Without Losing Our Minds,"What happens when 15+ teams collaborate on the same modular React Native app?
+In this talk, I’ll share the architectural evolution of a platform designed for scale from day one — and the challenges we faced as the number of modules, contributors, and cross-cutting concerns grew.
+
+We’ll dive into our modular structure, how we apply microfrontend principles in mobile, and how we introduced server-driven UI to empower product teams. We’ll also reflect on what it means to lead a platform team in this context — balancing autonomy and consistency while enabling fast, accessible, and scalable development across the organization.",Cecilia Geraldo,cgeraldoq@gmail.com,"iOS and Android.
+
+The app was born modular, but as the number of contributors and modules grew, we faced new challenges: team autonomy vs. consistency, platform drift, and scaling without losing developer experience. I’ll walk through the decisions we made to manage these complexities as a platform team.
+
+Structure of the talk:
+1: Setting the context: team structure, app landscape, modularity from day one
+2: Architecture deep dive:
+	•	Modular setup, ownership and cross-module communication
+	•	Microfrontend concepts applied in mobile
+	
+3: Server-driven UI:
+	•	Why we introduced it
+	•	Examples and key trade-offs
+4: Platform leadership & governance:
+	•	Standards, rituals, documentation, onboarding
+	•	Enabling teams while driving coherence
+
+Attendees will walk away with architectural patterns, platform strategies and lessons in leadership from real-world scale.",Advanced,"Microfrontends, React Native, server driven ui, accesibillity, leadership, developer experience",12 Jun 2025 10:58 am,13 Jun 2025 08:13 pm,,,,,,488853f1-0da6-4c97-a950-b5a466b65390,Cecilia,Geraldo,cgeraldoq@gmail.com,Technical Lead & Developer Consultant at Thoughtworks | Women TechMakers Ambassador,"Women TechMakers Ambassador from Chile. Building community and promoting visibiliby and women empowerment in tech industry. Cecy graduated form Laboratoria as Front End Developer, now she's a Software Developer Consultant and also Technical Lead at Thoughtworks. She strongly believes in the power of community and spreading knowledge, passionate about the code and connect with people, share her experience as she converted her path career and got into technology so more women can see this opportunities. She is an active promoter of learning continuosly and also share the knowledge and wisdom acquired, her favorites phrases are:  ""Knowledge is power, but only when it is shared. The more knowledge we share, the smarter we all become."" and she advocates to accomplish them.",https://github.com/ceciliageraldo,,I'm an experienced speaker,"I’m a Mobile Developer and Tech Lead at Thoughtworks, currently leading the platform team behind a modular React Native app used by 15+ product teams. I’m passionate about sharing knowledge I strongly believe that ""Knowledge is power, but only when it is shared. The more knowledge we share, the smarter we all become.""
+
+Beyond my day-to-day work, I’m an active speaker and community organizer. I’ve spoken at conferences like DeveloperWeek San Francisco (2025), and have been part of leadership teams for JSConf Chile, GDG Valparaíso and Women Techmakers Chile.
+
+I’m also neurodivergent and care deeply about making tech accessible and collaborative — on stage and in the codebase.
+
+This won’t be my first talk, but I’m always open to feedback, mentorship and learning from the community!",she/her,,"Santiago, Chile",I'm not an organizer but I'm part of a community that might be interested,"JavascriptChile, JSConf Chile","I'm not sure,",Checked,https://linkedin.com/in/ceciliageraldo,https://instagram.com/cecygeraldo.codes,https://sessionize.com/image/391c-400o400o1-JfjEb1794LzUisxmB9Cmhx.png
+916676,"Is this the real life, or are these just utility types in TypeScript and React 19?","Ladies and gentlemen, TypeScript's utility types are the Freddie Mercury of static typing: bold, versatile, and absolutely iconic. In this session, we'll take you on a Greatest Hits tour of every utility type, from Partial to OmitThisParameter, going through Capitalize and many more.
+
+We’ll crank the volume up to React 19: jamming on Server Components, Suspense, and the brand‑new Actions API, pairing each feature with its perfect utility‑type riff. 
+
+At the end of the talk we'll be ready to rock production code harder than Queen at Wembley '86!",Francesco Napoletano,napolux@gmail.com,"* Overview of typescript utility types
+* Examples based on React 19
+* A bit of Queen references here and there :)",Intermediate,"react, typescript",12 Jun 2025 10:58 am,12 Jun 2025 11:25 am,,,,,,c14aa869-f2f1-4242-8425-c7aa9998ea89,Francesco,Napoletano,napolux@gmail.com,Staff Software Engineer,"I'm Francesco, 44 years old, staff software engineer specialized in web applications living in Giussano, Italy. 
+I have ~20 years experience in frontend and backend technologies. I've worked in international teams for many different companies (eBay, Pirelli, Subito, cybersecurity scaleup)",,,I'm an experienced speaker,"Speaker @ WeAreDevelopers 2024 and 2025, Codemotion 2024, OSDay 2024 :)
+
+Founder of fullremote.it",he/him,,"Giussano, Italy",,,No,Checked,https://www.linkedin.com/in/francesconapoletano/,https://www.instagram.com/napo.dev/,https://sessionize.com/image/a73f-400o400o1-VA8VzC2eSADMJEWcgUVPp5.jpg
+919608,"React Compiler, how can you help me?","A useMemo here, a useCallback there, sprinkle in a memo. Is this a codebase or a jungle of optimisation hacks? But wait… why are *we* doing the framework’s job?
+
+Lucky for us, React Compiler is here, and It promises to fine-tune our code and let us focus on shipping features!
+
+Finally, you can focus your time on resolving business issues rather than framework mistakes!
+
+In this talk, we’ll explore how the React Compiler works, what it can (and can’t) do for our project, and how it’s changing the way we think about performance in React.
+
+Say goodbye to optimisation and hello to shipping features… faster. Unlock the compiler’s magic and let React do what It was always supposed to do—*just work*.",Luca Del Puppo,luca@delpuppo.net,"In this talk, I’ll talk about the new React Compiler. How it works and how it can improve our codebase.",Intermediate,React compiler,12 Jun 2025 10:58 am,12 Jun 2025 11:22 am,,,,,,df577d1f-1e8c-491a-a9de-5c8bbdb91bd7,Luca,Del Puppo,luca@delpuppo.net,"Nearform_, Senior Software Engineer","I'm a Senior Software Engineer, Microsoft MVP, Google Developer Expert Codemotion Ambassador and GitKraken Ambassador. I love JavaScript and TypeScript.
+In my free time, I love studying new technologies, improving myself, creating YouTube content or writing technical articles. I can’t stay without trail running and love to do it in my love Dolomiti.",https://github.com/puppo,,I'm an experienced speaker,,he/him,,Povegliano,,,,Checked,https://www.linkedin.com/in/lucadelpuppo/,,https://sessionize.com/image/09ed-400o400o1-Mtu422U1R2UjEixBL8dDea.jpg
+925980,"Decoupled, Not Disconnected: State and Sync in Micro-Frontends","As teams and apps grow, micro-frontends offer a way to scale — but managing state and communication across modules gets tricky. In this talk, I’ll explore how to structure micro-frontends in React and Next.js, how to manage different types of state, and how to keep everything in sync across backends, auth, and storage. Whether you're considering micro-frontends or already working with them, this talk will help you avoid the pain points and build modular systems that still feel cohesive.",Amira Shawky,amirashawkym23@gmail.com,"This talk will dive into real-world micro-frontend architecture using React and Next.js. I’ll cover when to use micro-frontends, how to manage state across modules, and how to handle communication with different backends, including auth and cookies.",Introductory and overview,"Micro-Frontends & Modular Architectures, Modern State Management",1 Jul 2025 08:36 am,1 Jul 2025 08:46 am,,,,,,6b9decd3-9fe0-42aa-9a44-13b00d60a903,Amira,Shawky,amirashawkym23@gmail.com,"Aydi, Frontend Engineer","Senior Frontend Developer with 4+ years of expertise in React, Next.js, and TypeScript. Led a team, optimized performance, and delivered projects for web applications across various industries, including agriculture, tourism, pharmacy, trading, e-commerce, and GIS.",,,I'm a first time speaker,,she/her,,Egypt/Cairo,,,no,Checked,https://www.linkedin.com/in/amira-shawky-219187164/,,https://sessionize.com/image/f62e-400o400o1-Yh33b9keBz1PoSRzwwY9wZ.png
+930607,React and the Art of Gamification,"Learn how React 19’s Server Components and the new React Compiler make classic gamification patterns—XP bars, streaks, achievements—blazing fast. We’ll build a live quest app that streams UI from the server, auto‑memoizes score updates, and even generates on‑the‑fly challenges with Gemini AI. You’ll leave with a starter repo and a checklist for turning any React project into an experience users hate to quit.",Courtney Yatteau,courtney.yatteau@gmail.com,"Patterns live‑coded: XP bar, streak badge, achievement popup.
+
+React 19 edge: Server Components stream quests; Compiler RC slashes re‑renders.
+
+AI cameo: Gemini generates adaptive hints on button press.
+
+Wrap‑up: hand off repo + gamification checklist",Intermediate,"React Server Components & React 19, React + AI Integration, Performance Optimization Techniques",12 Jun 2025 10:58 am,12 Jun 2025 05:56 pm,,,,,,fb198ed4-83c5-45dc-9298-9321d1cd9731,Courtney,Yatteau,courtney.yatteau@gmail.com,Developer Advocate at Esri,"Courtney Yatteau is a Developer Advocate on Esri's Developer Experience Team, where she focuses on helping developers enhance web applications through a variety of tools, libraries, and technologies, including mapping solutions. Before Esri, Courtney worked in the secondary education field, teaching computer science and mathematics.",https://github.com/cyatteau,,I'm an experienced speaker,"Frontrunners 2025: https://www.youtube.com/watch?v=3wjXD0VjBwU
+Carolina Code Conference 2024: https://www.youtube.com/watch?v=NBLUyhmws44
+CityJS Medellin 2024: https://www.youtube.com/watch?v=aA-fJCNCwII&t=11403s",she/her,,"Alexandria, Virginia, USA",,,,Checked,https://www.linkedin.com/in/courtneyyatteau/,https://www.instagram.com/c_yatteau/,https://sessionize.com/image/6996-400o400o1-LD2jPo7xLdv9Gp9qtzjzqm.jpg
+934638,From Chaos to Confidence: Avoiding the Biggest Mistakes in React State Management,"In this talk, we’ll walk through real examples of where state decisions went sideways from apps that became impossible to debug, to companies that had to rewrite their frontends because of poor architectural choices. Then, I’ll walk you through a beginner-friendly decision framework you can use to avoid those same mistakes.
+You’ll learn:
+	•	How to recognize when a state tool is working against you
+	•	The three most common mistakes teams make with local, global, and server state
+	•	How to future-proof your app by asking better questions at the start
+This talk is honest, practical, and full of lessons I wish I had when I started building in React. It’s for developers who are tired of guessing and want a better way to think about state, scale, and sanity.",Jovonne Cameron,jovonnec@gmail.com,"Talk Structure/Outline:
+1) Intro: Chaos to Confidence 
+Brief intro, promise of a practical framework.
+The common struggle with React state.
+
+2) Case Studies: State Decisions Gone Sideways 
+Debugging Black Hole: How local state mismanagement makes apps impossible to debug.
+Rewrites & Regrets: Architectural blunders with global/server state forcing costly rewrites.
+
+3) The Three Biggest State Management Mistakes 
+
+Mistake 1: Local State Scope: Misusing useState, prop drilling instead of composition.
+Mistake 2: Global State Bloat: Over-engineering or under-engineering global stores.
+Mistake 3: Neglecting Server State: Treating server data like local state, ignoring dedicated tools.
+
+4) Decision Framework: Future-Proofing Your App 
+Ask 1: What Kind of State? Local, Global, or Server.
+Ask 2: Who Needs to Know? Component, parent, app-wide.
+Ask 3: How Does It Change? User, API, etc.
+
+5) Choose Right Tool: useState, Context, Zustand, React Query – based on needs.
+
+6) Key Takeaways & Q&A
+Recap: Recognize pitfalls, apply framework, ask better questions.
+
+Content We'll Be Going Over:
+
+-Real-world failure examples: Why state decisions often lead to debugging nightmares or costly rewrites.
+-Anti-pattern recognition: How to spot when a state tool or pattern is working against you.
+-Core state types: Clear distinction between local, global, and server state.
+-Common State Mistakes: Detailed common errors made within each state category.
+-Actionable decision framework: Simple questions to guide state choices from the start.
+-Appropriate tool selection: When to use useState, Context API, or dedicated libraries like React Query/Zustand.
+
+Why This Talk is a Great Fit for React JS Day Audience:
+This talk directly addresses a universal pain point for React developers, especially those at the beginner to mid-level: state management complexity and the fear of making wrong choices.
+
+1) Highly Relatable: Every React developer has grappled with state, faced debugging challenges, or inherited a tangled state machine. The ""chaos to confidence"" narrative resonates deeply.
+
+2) Practical & Actionable: Instead of just theory, the talk provides real-world examples of mistakes and, crucially, a concrete, beginner-friendly framework to avoid them. This empowers attendees with immediate takeaways they can apply.
+
+3) Audience Centric: It's tailored for developers who are ""tired of guessing,"" offering a structured way to think about a core React concept. It avoids overly complex advanced topics, focusing on fundamental mistakes and solidifying foundational knowledge.
+
+4) Future-Proofing Focus: The emphasis on asking ""better questions at the start"" aligns with long-term development health, which is valuable for any developer building sustainable applications.
+
+5) Addresses All State Types: Covering local, global, and server state ensures a comprehensive, yet concise, overview of the entire state management landscape in React.",Introductory and overview,Modern State Management,12 Jun 2025 10:58 am,19 Jun 2025 02:38 am,,,,,,3f525949-4df3-443d-91bb-1831dcc86375,Jovonne,Cameron,jovonnec@gmail.com,Software Engineer and Technical Writer,"Jovonne Cameron is a Software Engineer, Technical Writer, and Content Creator focused on making tech accessible and empowering underrepresented communities to excel in the tech industry. As a technical writer, she loves breaking down complex tech topics into clear, digestible content that helps beginners navigate the world of technology.
+With a passion for bridging the gap between career development, financial literacy, and tech culture, Jovonne creates content that is both educational and aspirational. She is known for creating relatable and informative content that resonates with aspiring technologists, career changers, and young professionals.
+Jovonne’s mission is to inspire and support her audience as they navigate their growth, discover new opportunities, and transform their careers. Through authentic storytelling and thought leadership, she aims to foster a sense of community and provide practical advice, tools, and resources that help people invest in their future success.",https://www.github.com/curlygirltech,,I'm an experienced speaker,"While I don’t yet have published recordings available, I’ve recently spoken at React Miami and ClueCon Weekly, where I had the opportunity to connect with developers of all experience levels. Some of the immediate feedback I received included:
+
+“You were the most engaging talk of the entire conference.”
+“Thanks for breaking down state management, I learned a lot during your session.”
+
+As a developer and educator, it’s my mission to make technical concepts feel less intimidating and more human. Whether it’s state management or AI integrations, I focus on clarity, empathy, and practical takeaways that beginners and mid-level devs can apply right away.
+
+While I’ve spoken before, I’m always open to feedback and collaboration. I’d be thrilled to be part of ReactJS Day and contribute to its long-standing tradition of innovation and learning.",she/her,,"New York, Unites States of America",,,,Checked,https://www.linkedin.com/in/jovonnecameron/,,https://sessionize.com/image/1d17-400o400o1-TXiAhcWUG9gjWHfkLzX7PP.png
+965988,From Unit to E2E: Crafting a Bulletproof testing pipeline for React Apps,"Tired of deploying React features that break in production? In this talk, we’ll build a multi-layered testing pipeline from unit tests to E2E and performance tests tailored for React and Next.js projects. You’ll learn how to integrate tools like Jest, Playwright, Storybook, and k6 into your daily dev flow and CI/CD. Expect real-world case studies, code demos, and actionable strategies to boost confidence in your React releases.",Ludovico Besana,ludovicobesanaguide@gmail.com,"- How to write maintainable unit tests with Jest and React Testing Library
+- Using Storybook for isolated component testing and interactive documentation
+- Running cross-browser end-to-end tests with Playwright on real and virtual devices
+- Implementing visual tests and automated accessibility checks to prevent regressions
+- Performance testing React apps with k6 directly in the CI/CD pipeline
+- Setting up a real-world pipeline for Next.js projects using GitHub Actions and BrowserStack",Intermediate,testing,29 Jun 2025 07:58 pm,29 Jun 2025 08:00 pm,,,,,,14c6ae82-121f-457e-a04a-f6aefb52b078,Ludovico,Besana,ludovicobesanaguide@gmail.com,Senior Test Engineer @Nearform ,"Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems.
+As an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer.",https://github.com/ludovicobesana,,I'm an experienced speaker,https://github.com/ludovicobesana/curriculum-vitae/blob/main/sections/Talks.md,he/him,,"Milan, Italy",,,,Checked,https://www.linkedin.com/in/ludovicobesana/,https://www.instagram.com/ludovicobesana/,https://sessionize.com/image/6fcf-400o400o1-aDkpJzhmQV6KVRa2E5FwEo.png
